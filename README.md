@@ -1,73 +1,160 @@
-# Sistema de Gerenciamento de Clientes
+<p align="center">
+  <img src="https://i.imgur.com/U3f2s7v.png" alt="Client-Hub Logo" width="200"/>
+</p>
 
-Sistema de gerenciamento de clientes desenvolvido com React, TypeScript e Vite. A aplicação permite o cadastro e login de usuários, e o gerenciamento de uma lista de clientes.
+<h1 align="center">Client-Hub</h1>
 
-## Funcionalidades
+<p align="center">
+  <strong>A simple and efficient client management system.</strong>
+</p>
 
-- **Autenticação de Usuários:**
-  - Cadastro de novos usuários com nome, e-mail e senha.
-  - As senhas são criptografadas antes de serem armazenadas.
-  - Login de usuários com e-mail e senha.
-- **Gerenciamento de Clientes:**
-  - Adicionar, editar e excluir clientes.
-  - Listagem de clientes em uma tabela.
-  - Validação para evitar e-mails e CPF/CNPJ duplicados.
+<p align="center">
+  <a href="#live-demo">Live Demo</a> •
+  <a href="#functionalities">Functionalities</a> •
+  <a href="#folder-structure">Folder Structure</a> •
+  <a href="#built-with">Built With</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#available-scripts">Available Scripts</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
 
-## Tecnologias Utilizadas
+---
+
+## Live Demo
+
+A live demo of the application is available at [https://client-hub-demo.com](https://client-hub-demo.com).
+
+*(Note: This is a placeholder link.)*
+
+---
+
+## Functionalities
+
+- **User Authentication:**
+  - Sign up with name, email, and password.
+  - Passwords are encrypted before being stored.
+  - Login with email and password.
+- **Client Management:**
+  - Add, edit, and delete clients.
+  - List clients in a table.
+  - Validation to prevent duplicate emails and CPF/CNPJ.
+
+---
+
+## Folder Structure
+
+```
+/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Botao/
+│   │   ├── CampoTexto/
+│   │   └── Formulario/
+│   ├── pages/
+│   │   ├── CadastroUsuarioPage.tsx
+│   │   ├── ClientPage.tsx
+│   │   └── LoginPage.tsx
+│   ├── services/
+│   │   ├── clientService.ts
+│   │   └── storageService.ts
+│   ├── types/
+│   │   ├── Client.ts
+│   │   └── User.ts
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.ts
+```
+
+---
+
+## Built With
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [Ant Design](https://ant.design/) para componentes de UI.
-- [bcryptjs](https://github.com/dcodeIO/bcrypt.js) para criptografia de senhas.
-- [cpf-cnpj-validator](https://github.com/fjorgemota/cpf-cnpj-validator) para validação de CPF/CNPJ.
-- [libphonenumber-js](https://github.com/catamphetamine/libphonenumber-js) para validação de números de telefone.
+- [Ant Design](https://ant.design/)
+- [bcryptjs](https://github.com/dcodeIO/bcrypt.js)
+- [cpf-cnpj-validator](https://github.com/fjorgemota/cpf-cnpj-validator)
+- [libphonenumber-js](https://github.com/catamphetamine/libphonenumber-js)
 
-## Primeiros Passos
+---
 
-Siga as instruções abaixo para executar o projeto em seu ambiente de desenvolvimento.
+## Getting Started
 
-### Pré-requisitos
+Follow the instructions below to set up and run the project in your local development environment.
 
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+### Prerequisites
 
-### Instalação
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```sh
-   cd seu-repositorio
-   ```
-3. Instale as dependências:
-   ```sh
-   npm install
-   ```
+### Installation
 
-## Scripts Disponíveis
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/client-hub.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd client-hub
+    ```
+3.  Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-No diretório do projeto, você pode executar:
+---
+
+## Available Scripts
+
+In the project directory, you can run the following commands:
 
 ### `npm run dev`
 
-Executa a aplicação em modo de desenvolvimento.
-Abra [http://localhost:5173](http://localhost:5173) para visualizá-la no navegador.
+Runs the application in development mode.
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-A página será recarregada se você fizer edições.
-Você também verá quaisquer erros de lint no console.
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
 ### `npm run build`
 
-Compila a aplicação para produção na pasta `dist`.
-Ele agrupa o React corretamente no modo de produção e otimiza a compilação para o melhor desempenho.
+Builds the application for production in the `dist` folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ### `npm run lint`
 
-Executa o linter para verificar a qualidade do código.
+Runs the linter to check the code quality.
 
 ### `npm run preview`
 
-Executa a aplicação em modo de produção.
+Runs the application in production mode.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/your-feature`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'Add some feature'`).
+5.  Push to the branch (`git push origin feature/your-feature`).
+6.  Open a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
