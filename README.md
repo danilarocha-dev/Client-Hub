@@ -5,44 +5,44 @@
 <h1 align="center">Client-Hub</h1>
 
 <p align="center">
-  <strong>A simple and efficient client management system.</strong>
+  <strong>Um sistema de gerenciamento de clientes simples e eficiente.</strong>
 </p>
 
 <p align="center">
-  <a href="#live-demo">Live Demo</a> •
-  <a href="#functionalities">Functionalities</a> •
-  <a href="#folder-structure">Folder Structure</a> •
-  <a href="#built-with">Built With</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#available-scripts">Available Scripts</a> •
-  <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a>
+  <a href="#demonstração-ao-vivo">Demonstração ao Vivo</a> •
+  <a href="#funcionalidades">Funcionalidades</a> •
+  <a href="#estrutura-de-pastas">Estrutura de Pastas</a> •
+  <a href="#construído-com">Construído com</a> •
+  <a href="#começando">Começando</a> •
+  <a href="#scripts-disponíveis">Scripts Disponíveis</a> •
+  <a href="#contribuindo">Contribuindo</a> •
+  <a href="#licença">Licença</a>
 </p>
 
 ---
 
-## Live Demo
+## Demonstração ao Vivo
 
-A live demo of the application is available at [https://client-hub-demo.com](https://client-hub-demo.com).
+Uma demonstração ao vivo da aplicação está disponível em [https://client-hub-demo.com](https://client-hub-demo.com).
 
-*(Note: This is a placeholder link.)*
-
----
-
-## Functionalities
-
-- **User Authentication:**
-  - Sign up with name, email, and password.
-  - Passwords are encrypted before being stored.
-  - Login with email and password.
-- **Client Management:**
-  - Add, edit, and delete clients.
-  - List clients in a table.
-  - Validation to prevent duplicate emails and CPF/CNPJ.
+*(Nota: Este é um link de exemplo.)*
 
 ---
 
-## Folder Structure
+## Funcionalidades
+
+- **Autenticação de Usuário:**
+  - Cadastre-se com nome, e-mail e senha.
+  - As senhas são criptografadas antes de serem armazenadas.
+  - Faça login com e-mail e senha.
+- **Gerenciamento de Clientes:**
+  - Adicione, edite e exclua clientes.
+  - Liste os clientes em uma tabela.
+  - Validação para evitar e-mails e CPF/CNPJ duplicados.
+
+---
+
+## Estrutura de Pastas
 
 ```
 /
@@ -77,7 +77,7 @@ A live demo of the application is available at [https://client-hub-demo.com](htt
 
 ---
 
-## Built With
+## Construído com
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -89,72 +89,72 @@ A live demo of the application is available at [https://client-hub-demo.com](htt
 
 ---
 
-## Getting Started
+## Começando
 
-Follow the instructions below to set up and run the project in your local development environment.
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente de desenvolvimento local.
 
-### Prerequisites
+### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-### Installation
+### Instalação
 
-1.  Clone the repository:
+1.  Clone o repositório:
     ```sh
-    git clone https://github.com/your-username/client-hub.git
+    git clone https://github.com/seu-usuario/client-hub.git
     ```
-2.  Navigate to the project directory:
+2.  Navegue até o diretório do projeto:
     ```sh
     cd client-hub
     ```
-3.  Install the dependencies:
+3.  Instale as dependências:
     ```sh
     npm install
     ```
 
 ---
 
-## Available Scripts
+## Scripts Disponíveis
 
-In the project directory, you can run the following commands:
+No diretório do projeto, você pode executar os seguintes comandos:
 
 ### `npm run dev`
 
-Runs the application in development mode.
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Executa a aplicação em modo de desenvolvimento.
+Abra [http://localhost:5173](http://localhost:5173) para visualizá-la no navegador.
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+A página será recarregada se você fizer edições.
+Você também verá quaisquer erros de lint no console.
 
 ### `npm run build`
 
-Builds the application for production in the `dist` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila a aplicação para produção na pasta `dist`.
+Ele agrupa corretamente o React em modo de produção e otimiza a compilação para o melhor desempenho.
 
 ### `npm run lint`
 
-Runs the linter to check the code quality.
+Executa o linter para verificar a qualidade do código.
 
 ### `npm run preview`
 
-Runs the application in production mode.
+Executa a aplicação em modo de produção.
 
 ---
 
-## Contributing
+## Contribuindo
 
-Contributions are welcome! Please follow these steps to contribute:
+Contribuições são bem-vindas! Por favor, siga estes passos para contribuir:
 
-1.  Fork the repository.
-2.  Create a new branch (`git checkout -b feature/your-feature`).
-3.  Make your changes.
-4.  Commit your changes (`git commit -m 'Add some feature'`).
-5.  Push to the branch (`git push origin feature/your-feature`).
-6.  Open a pull request.
+1.  Faça um fork do repositório.
+2.  Crie uma nova branch (`git checkout -b feature/sua-feature`).
+3.  Faça suas alterações.
+4.  Faça o commit de suas alterações (`git commit -m 'Adiciona alguma feature'`).
+5.  Faça o push para a branch (`git push origin feature/sua-feature`).
+6.  Abra um pull request.
 
 ---
 
-## License
+## Licença
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
