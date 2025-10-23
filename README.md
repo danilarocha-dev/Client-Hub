@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/U3f2s7v.png" alt="Client-Hub Logo" width="200"/>
-</p>
-
 <h1 align="center">Client-Hub</h1>
 
 <p align="center">
@@ -15,17 +11,13 @@
   <a href="#construído-com">Construído com</a> •
   <a href="#começando">Começando</a> •
   <a href="#scripts-disponíveis">Scripts Disponíveis</a> •
-  <a href="#contribuindo">Contribuindo</a> •
-  <a href="#licença">Licença</a>
 </p>
 
 ---
 
 ## Demonstração ao Vivo
 
-Uma demonstração ao vivo da aplicação está disponível em [https://client-hub-demo.com](https://client-hub-demo.com).
-
-*(Nota: Este é um link de exemplo.)*
+Uma demonstração ao vivo da aplicação está disponível em [ http://localhost:5173/]( http://localhost:5173/).
 
 ---
 
@@ -102,7 +94,7 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 
 1.  Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/client-hub.git
+    git clone https://github.com/seu-usuario/client-hub.git 
     ```
 2.  Navegue até o diretório do projeto:
     ```sh
@@ -141,20 +133,3 @@ Executa o linter para verificar a qualidade do código.
 Executa a aplicação em modo de produção.
 
 ---
-
-## Contribuindo
-
-Contribuições são bem-vindas! Por favor, siga estes passos para contribuir:
-
-1.  Faça um fork do repositório.
-2.  Crie uma nova branch (`git checkout -b feature/sua-feature`).
-3.  Faça suas alterações.
-4.  Faça o commit de suas alterações (`git commit -m 'Adiciona alguma feature'`).
-5.  Faça o push para a branch (`git push origin feature/sua-feature`).
-6.  Abra um pull request.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
